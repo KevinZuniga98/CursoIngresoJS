@@ -1,6 +1,15 @@
 function mostrar()
 {
-	alert('iteración while');
+	
 
-
+	var numeros= 11;
+	var contador = 0;
+	
+	
+	while (contador <= 9)
+	{
+	  numeros --
+	  contador ++
+	  alert (numeros);
+	}
 }//FIN DE LA FUNCIÓN
